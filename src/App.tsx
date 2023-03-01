@@ -11,7 +11,7 @@ function App(): JSX.Element {
 
   return (
     <div className={styles["App"]} style={{ backgroundImage: `url(${appBackground})` }}>
-
+      
     </div>
   )
 }
