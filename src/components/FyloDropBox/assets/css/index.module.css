@@ -1,0 +1,40 @@
+.fylo-dropbox-container {
+	width: 350px;
+	min-height: 180px;
+	padding: 40px;
+	position: relative;
+	top: 5%;
+	right: 20%;
+	background-color: hsl(228, 56%, 26%);
+	border-top-right-radius: 90px;
+}
+
+.dropbox-items {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.dropbox-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 46px;
+	height: 46px;
+	background-color: hsl(229, 57%, 11%);
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.dropbox-item:hover {
+	transition: all 0.14s ease-in;
+	background-color: transparent;
+	border: 2px solid white;
+	transform: scale(1.09);
+	box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.dropbox-item:not(:first-child, :last-child) {
+	margin: 0 10px;
+}
