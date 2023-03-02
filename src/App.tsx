@@ -14,6 +14,7 @@ function App(): JSX.Element {
     <div className={styles["App"]} style={{ backgroundImage: `url(${appBackground})` }}>
       <div className={styles["fylo-container"]}>
         <FyloDropBox />
+        
       </div>
     </div>
   )
