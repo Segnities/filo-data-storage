@@ -1,8 +1,6 @@
 .fylo-dropbox-container {
 	width: 100%;
 	padding: 45px;
-	bottom: 25%;
-	position: relative;
 	background-color: hsl(228, 56%, 26%);
 	border-top-right-radius: 90px;
 	border-top-left-radius: 12px;
@@ -45,9 +43,6 @@
 		width: 350px;
 		min-height: 180px;
 		padding: 40px;
-		position: relative;
-		top: 5%;
-		right: 20%;
 		background-color: hsl(228, 56%, 26%);
 		border-top-right-radius: 90px;
 	}

@@ -1,0 +1,95 @@
+.fylo-droprange-container {
+	width: 100%;
+	margin-top: 10px;
+	min-height: 180px;
+	border-radius: 10px;
+	background-color: hsl(228, 56%, 26%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 3rem;
+}
+
+.fylo-using-memory {
+	color: hsl(229, 7%, 55%);
+}
+
+.fylo-using-memory b {
+	color: white;
+}
+
+.memory-range input[type='range'] {
+	width: 100%;
+	background-size: 70% 100%;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	cursor: pointer;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+.memory-range input::-webkit-slider-runnable-track {
+	background-image: linear-gradient(
+		90deg,
+		hsl(6, 100%, 80%),
+		hsl(335, 100%, 65%)
+	);
+	border-radius: 10px;
+	height: 18px;
+	outline: 3px solid hsl(229, 57%, 11%);
+}
+
+.memory-range input::-moz-range-track {
+	outline: 3px solid hsl(229, 57%, 11%);
+	background-color: hsl(229, 57%, 11%);
+	height: 100%;
+	border-radius: 10px;
+}
+
+.memory-range input::-moz-range-progress {
+	border-radius: 15px;
+	height: 100%;
+	background-image: linear-gradient(
+		90deg,
+		hsl(6, 100%, 80%),
+		hsl(335, 100%, 65%)
+	);
+}
+
+.memory-range input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	border-radius: 50%;
+	margin-top: 2px;
+	background-color: white;
+	height: 12px;
+	width: 12px;
+}
+
+.memory-range input::-moz-range-thumb {
+	border-radius: 50%;
+	height: 12px;
+	width: 12px;
+	outline: 3px solid
+		linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.memory-range input:focus {
+	outline: none;
+}
+
+.range-points {
+	display: flex;
+	justify-content: space-between;
+}
+.range-points {
+	color: white;
+}
+
+@media screen and (min-width: 640px) {
+	.fylo-droprange-container {
+		width: 52%;
+		margin-left: 30px;
+	}
+}
