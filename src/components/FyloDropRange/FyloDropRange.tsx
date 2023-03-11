@@ -5,6 +5,7 @@ import styles from './assets/css/FyloDropRange.module.css';
 
 function FyloDropRange() {
 	const [memory, setMemory] = useState(0);
+
 	return (
 		<div className={styles["fylo-droprange-container"]}>
 			<p className={styles['fylo-using-memory']}>

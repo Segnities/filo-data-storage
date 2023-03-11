@@ -1,6 +1,6 @@
 .fylo-dropbox-container {
 	width: 100%;
-	padding: 45px;
+	padding: 30px;
 	background-color: hsl(228, 56%, 26%);
 	border-top-right-radius: 90px;
 	border-top-left-radius: 12px;
@@ -40,10 +40,12 @@
 
 @media screen and (min-width: 620px) {
 	.fylo-dropbox-container {
-		width: 350px;
+		width: 354px;
 		min-height: 180px;
-		padding: 40px;
+		padding: 35px;
 		background-color: hsl(228, 56%, 26%);
-		border-top-right-radius: 90px;
+		border-top-right-radius: 110px;
+		position: relative;
+		top: 7vh;
 	}
 }
