@@ -1,0 +1,42 @@
+.box {
+    width: 180px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+    background-color: white;
+    padding: 20px;
+    bottom: 70px;
+    position: relative;
+    margin: 40px;
+    border: 2px solid #000;
+    border-radius: 9px;
+}
+
+span.gb-left {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    color: gray;
+}
+
+.dialog-info {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.arrow-bottom-right::after {
+    content: " ";
+    position: absolute;
+    right: 0px;
+    bottom: -20px;
+    border-top: none;
+    border-right: 45px solid white;
+    border-left: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+}

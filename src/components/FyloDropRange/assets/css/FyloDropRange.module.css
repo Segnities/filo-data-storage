@@ -19,8 +19,9 @@
 }
 
 .memory-range input[type='range'] {
-	width: 100%;
+	width: 87%;
 	background-size: 70% 100%;
+	position: absolute;
 	background-repeat: no-repeat;
 	border-radius: 10px;
 	cursor: pointer;
@@ -84,6 +85,13 @@
 
 .range-points>p {
 	font-size: 13px;
+}
+
+.dialog-container {
+	width: 100%;
+	position: absolute;
+	inset: 0;
+	z-index: 0
 }
 
 @media screen and (min-width: 640px) {
