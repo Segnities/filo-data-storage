@@ -7,7 +7,7 @@
     float: right;
     background-color: white;
     padding: 20px;
-    bottom: 70px;
+    bottom: 80px;
     position: relative;
     margin: 40px;
     border: 2px solid #000;
@@ -19,7 +19,7 @@ span.gb-left {
     letter-spacing: 2px;
     font-weight: bold;
     position: relative;
-    bottom: 10px;
+    bottom: 5px;
     left: 10px;
     color: gray;
 }

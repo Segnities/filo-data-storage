@@ -4,8 +4,8 @@ import { useGetClientDevice } from './hooks/useGetClientDevice';
 
 import BgDesktop from "./assets/img/bg-desktop.png"
 import BgMobile from "./assets/img/bg-mobile.png";
-import FyloDropBox from './components/FyloDropBox/FyloDropBox';
-import FyloDropRange from './components/FyloDropRange/FyloDropRange';
+import FyloDropBox from './components/FyloDropBox';
+import FyloDropRange from './components/FyloDropRange';
 
 function App(): JSX.Element {
   const userDevice: string = useGetClientDevice();

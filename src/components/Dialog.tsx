@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./assets/css/Dialog.module.css";
+import styles from "../assets/css/Dialog.module.css";
 
 interface Props {
     gbLeft: number;

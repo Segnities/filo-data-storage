@@ -1,9 +1,9 @@
-import styles from "./assets/css/FyloDropBox.module.css";
+import styles from "../assets/css/FyloDropBox.module.css";
 
-import Logo from "./assets/img/logo.svg";
-import Folder from "./assets/img/icon-folder.svg";
-import Document from "./assets/img/icon-document.svg";
-import Upload from "./assets/img/icon-upload.svg";
+import Logo from "../assets/img/logo.svg";
+import Folder from "../assets/img/icon-folder.svg";
+import Document from "../assets/img/icon-document.svg";
+import Upload from "../assets/img/icon-upload.svg";
 
 
 function FyloDropBox(): JSX.Element {
