@@ -27,6 +27,7 @@ span.gb-left {
 .dialog-info {
     font-size: 32px;
     font-weight: bold;
+    color:hsl(229, 57%, 11%);
 }
 
 
@@ -39,4 +40,15 @@ span.gb-left {
     border-right: 45px solid white;
     border-left: 45px solid transparent;
     border-bottom: 45px solid transparent;
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        top: 95px;
+        bottom: 0;
+
+    }
+    .arrow-bottom-right::after {
+        display: none;
+    }
 }

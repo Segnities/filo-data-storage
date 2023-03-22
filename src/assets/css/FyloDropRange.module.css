@@ -9,6 +9,7 @@
 	justify-content: space-between;
 	flex-direction: column;
 	padding: 2.5rem;
+	margin: 10px 0;
 }
 
 .fylo-using-memory {
@@ -104,8 +105,13 @@ input[type='range'] {
 	}
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 420px) {
 	.memory-range input[type='range'] {
-		width: 71% ;
+		width: 71%;
+	}
+
+	.dialog-container {
+		display: flex;
+		justify-content: center;
 	}
 }
