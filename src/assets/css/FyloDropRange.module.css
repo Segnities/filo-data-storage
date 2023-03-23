@@ -9,7 +9,7 @@
 	justify-content: space-between;
 	flex-direction: column;
 	padding: 2.5rem;
-	margin: 10px 0;
+	margin: 15px 0;
 }
 
 .fylo-using-memory {
@@ -96,7 +96,13 @@ input[type='range'] {
 	z-index: 0
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (orientation: landscape) {
+	.fylo-droprange-container  {
+		max-width: 480px;
+	}
+}
+
+@media screen and (min-width: 640px) and (orientation: portrait) {
 	.fylo-droprange-container {
 		width: 45%;
 		position: relative;
@@ -113,5 +119,11 @@ input[type='range'] {
 	.dialog-container {
 		display: flex;
 		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.fylo-droprange-container {
+		margin: 25px 0 0 30px;
 	}
 }

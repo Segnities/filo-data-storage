@@ -23,12 +23,24 @@
 	}
 }
 
+@media screen and (orientation: landscape) {
+	.App {
+		padding: 40px;
+		min-height: 100vh;
+	}
+
+	.fylo-container {
+		width: 100%;
+	}
+}
+
 @media screen and (min-width: 675px) and (orientation: portrait) {
 	.fylo-container {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
 }
+
 
 @media screen and (min-width: 1024px) {
 	.App {
@@ -45,4 +57,3 @@
 		align-items: center;
 	}
 }
-
